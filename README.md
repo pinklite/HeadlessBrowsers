@@ -1,6 +1,8 @@
 Headless Browsers
 ================
 
+> ✨ Get long term memory across all your AI tools with [MemoryPlugin](https://www.memoryplugin.com/?ref=github-headlessbrowsers) [sponsor]
+
 ### A list of (almost) all headless web browsers in existence
 
 *A web browser without a graphical user interface, controlled programmatically. Used for automation, testing, and other purposes.*
@@ -27,8 +29,11 @@ Name  | About  | Supported Languages | License
 |[CasperJS](http://casperjs.org/) | [[Unmaintained]](https://github.com/casperjs/casperjs) CasperJS is an open source navigation scripting & testing utility written in Javascript for the PhantomJS WebKit headless browser and SlimerJS (Gecko).        |   JavaScript | MIT |
 |[Geb](http://www.gebish.org/) | Geb is a Groovy interface to WebDriver.|Groovy| Apache |
 |[Playwright](https://github.com/microsoft/playwright) | Playwright is a Node library to automate the Chromium, WebKit and Firefox browsers with a single API |TypeScript| Apache |
-|[PlaywrightSharp](https://github.com/microsoft/playwright-sharp) | PlaywrightSharp is a .NET library to automate Chromium, Firefox and WebKit browsers with a single API. |.NET| MIT |
-|[Selenium](http://seleniumhq.org) | Selenium is a suite of tools to automate web browsers across many platforms.|JavaScript, Python, Ruby, Java, C#, Haskell, Objective-C, Perl, PHP, R| Apache |
+|[playwright-dotnet](https://github.com/microsoft/playwright-dotnet) | Playwright for .NET is a library to automate Chromium, Firefox and WebKit browsers with a single API. |.NET| MIT |
+|[playwright-python](https://github.com/microsoft/playwright-python) | Playwright for Python is a library to automate Chromium, Firefox and WebKit browsers with a single API. |Python| Apache |
+|[playwright-java](https://github.com/microsoft/playwright-java) | Playwright for Java is a library to automate Chromium, Firefox and WebKit browsers with a single API. |Java| Apache |
+|[playwright-go](https://github.com/mxschmitt/playwright-go) | Playwright for Go is a library to automate Chromium, Firefox and WebKit browsers with a single API. |Go| MIT |
+|[Selenium](http://seleniumhq.org) | Selenium is a suite of tools to automate web browsers across many platforms.|JavaScript, Python, Ruby, Java, C#, Haskell, Objective-C, Perl, PHP, R, C++| Apache |
 |[Splinter](https://splinter.readthedocs.io/en/latest/) | Splinter is an open source tool for testing web applications using Python. It lets you automate browser actions, such as visiting URLs and interacting with their items.|Python| - |
 |[SST](https://pypi.python.org/pypi/sst/0.2.4) | SST (selenium-simple-test) is a web test framework that uses Python to generate functional browser-based tests.|Python| - |
 |[Watir](https://github.com/watir/watir) | The most elegant way to use Selenium WebDriver with Ruby.|Ruby| MIT |
@@ -62,7 +67,7 @@ Name  | About  | Supported Languages | License
 |[Chromeless](https://github.com/graphcool/chromeless) | Chrome automation made simple. Runs locally or headless on AWS Lambda. | JavaScript | MIT |
 |[Chrome PHP](https://github.com/chrome-php/headless-chromium-php) | PHP API to drive Chromium or Google Chrome via the Chrome Devtools Protocole. | PHP | Fair |
 |[Wendigo](https://github.com/angrykoala/wendigo) | Test-oriented browser automation library using Puppeteer. | JavaScript | GPL-3.0 | 
-|[cdp4j](https://github.com/webfolderio/cdp4j) | A web-automation library for Java. It can be used for automating the use of web pages and for testing web pages. It use Google Chrome DevTools Protocol to automate Chrome/Chromium based browsers. | Java | cdp4j Commercial License |
+|[cdp4j](https://github.com/safrizal/cdp4j) | A web-automation library for Java. It can be used for automating the use of web pages and for testing web pages. It use Google Chrome DevTools Protocol to automate Chrome/Chromium based browsers. | Java | cdp4j Commercial License |
 |[Pyppeteer](https://github.com/pyppeteer/pyppeteer) | Python port of puppeteer JavaScript (headless) chrome/chromium browser automation library | Python | MIT |
 |[Headless Chrome](https://github.com/atroche/rust-headless-chrome) | A high-level API to control headless Chrome or Chromium over the DevTools Protocol. | Rust | None
 
@@ -120,7 +125,6 @@ Name  | About  | Supported Languages | License
 |[node-as-browser](https://github.com/seebigs/node-as-browser) | Create a browser-like environment within Node.js |JavaScript| MIT |
 |[RoboBrowser](https://github.com/jmcarp/robobrowser) | A simple, Pythonic library for browsing the web without a standalone web browser.|Python| BSD 3-Clause |
 |[SimpleBrowser](https://github.com/SimpleBrowserDotNet/SimpleBrowser) | A flexible and intuitive web browser engine designed for automation tasks. Built on the .Net 4 framework.|.NET| BSD 3-Clause |
-|[stanislaw](https://github.com/teddziuba/stanislaw) | Naive, mechanize-like HTML parser/form driver.|Python| Not specified |
 |[twill](http://twill.idyll.org/) | Twill is a simple language that interacts with basic HTML pages (no JavaScript support).|Python| MIT |
 |[WeasyPrint](http://weasyprint.org/) | WeasyPrint is a visual rendering engine for HTML and CSS that can export to PDF. It aims to support web standards for printing.|Python| BSD 3-Clause |
 |[WWW::Mechanize](https://metacpan.org/search?size=20&q=WWW%3A%3AMechanize&search_type=modules) |  Headless browser for Perl with many plugins and extensions, notably Test::WWW:Mechanize for testing | Perl | Perl 5 |
@@ -142,3 +146,4 @@ Name  | About  | Supported Languages | License
 Name  | About  | Supported Languages | License
 :------------ |:---------------| :----- | :-----------
 |[browser-launcher](https://github.com/substack/browser-launcher) | Detect and launch browser versions, headlessly or otherwise|JavaScript| MIT |
+|[Headless Recorder](https://chrome.google.com/webstore/detail/headless-recorder/djeegiggegleadkkbgopoonhjimgehda) | Chrome extension that records your browser interactions and generates a Playwright or Puppeteer script |JavaScript| MIT |
